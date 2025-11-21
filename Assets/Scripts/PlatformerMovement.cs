@@ -32,6 +32,7 @@ public class PlatformerMovement : MonoBehaviour
     private bool isGrounded;
 
     [SerializeField] private Animator animator;
+    [SerializeField] private InputActionAsset actionsAsset;
     
     void Awake()
     {
@@ -81,9 +82,27 @@ public class PlatformerMovement : MonoBehaviour
         if (spriteRenderer)
         {
             if (moveInput.x > 0.01f)
-                spriteRenderer.flipX = false;
-            else if (moveInput.x < -0.01f)
                 spriteRenderer.flipX = true;
+            else if (moveInput.x < -0.01f)
+                spriteRenderer.flipX = false;
+        }
+
+        if (actionsAsset.FindAction("Move").IsPressed())
+        {
+            animator.SetBool("Walking", true);
+        }
+        else
+        {
+            animator.SetBool("Walking", false);
+        }
+        
+        if (actionsAsset.FindAction("Jump").IsPressed() && isGrounded == false)
+        {
+               animator.SetBool("Jumping", true);
+        }
+        else if (isGrounded)
+        {
+            animator.SetBool("Jumping", false);
         }
     }
 
@@ -92,6 +111,7 @@ public class PlatformerMovement : MonoBehaviour
         isGrounded = IsGrounded();
         ApplyGravity();
         rb.linearVelocity = velocity;
+        
         
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
     }

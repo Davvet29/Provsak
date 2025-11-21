@@ -401,8 +401,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 981362461}
   - {fileID: 1106237546}
+  - {fileID: 981362461}
   - {fileID: 938950541}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32352,8 +32352,8 @@ Transform:
   m_GameObject: {fileID: 1106237545}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.6201, z: 0.78314304}
-  m_LocalScale: {x: 1, y: 1.2797, z: 1}
+  m_LocalPosition: {x: 0, y: -3.7286, z: 0.78314304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 519420032}
@@ -32397,6 +32397,7 @@ MonoBehaviour:
   jumpForce: 10
   spriteRenderer: {fileID: 1106237552}
   animator: {fileID: 1106237547}
+  actionsAsset: {fileID: -944628639613478452, guid: 4bc8e4a0fcdcc664bb73b58212b19620, type: 3}
 --- !u!58 &1106237549
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -32541,7 +32542,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -1826952330918056546, guid: 74ab5f2fbceaec544aea4d2cf88004d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -40806,6 +40807,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 619394802}
   - {fileID: 1741830651}
-  - {fileID: 1414802957}
   - {fileID: 621452043}
+  - {fileID: 1414802957}
   - {fileID: 262427785}

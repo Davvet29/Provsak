@@ -109,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -175,10 +175,10 @@ TextureImporter:
       name: tilemap-characters_packed_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 47
-        width: 22
-        height: 25
+        x: 0
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: tilemap-characters_packed_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 23
-        width: 22
-        height: 25
+        x: 24
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,9 +219,9 @@ TextureImporter:
       name: tilemap-characters_packed_2
       rect:
         serializedVersion: 2
-        x: 25
+        x: 48
         y: 48
-        width: 22
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: tilemap-characters_packed_3
       rect:
         serializedVersion: 2
-        x: 25
-        y: 24
-        width: 22
-        height: 25
+        x: 72
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: tilemap-characters_packed_4
       rect:
         serializedVersion: 2
-        x: 49
-        y: 47
-        width: 22
-        height: 25
+        x: 96
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,9 +285,9 @@ TextureImporter:
       name: tilemap-characters_packed_5
       rect:
         serializedVersion: 2
-        x: 73
+        x: 120
         y: 48
-        width: 22
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: tilemap-characters_packed_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 47
-        width: 22
-        height: 25
+        x: 144
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,9 +329,9 @@ TextureImporter:
       name: tilemap-characters_packed_7
       rect:
         serializedVersion: 2
-        x: 121
+        x: 168
         y: 48
-        width: 22
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: tilemap-characters_packed_8
       rect:
         serializedVersion: 2
-        x: 145
-        y: 47
-        width: 22
-        height: 25
+        x: 192
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,9 +373,9 @@ TextureImporter:
       name: tilemap-characters_packed_9
       rect:
         serializedVersion: 2
-        x: 169
-        y: 48
-        width: 22
+        x: 0
+        y: 24
+        width: 24
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -395,10 +395,10 @@ TextureImporter:
       name: tilemap-characters_packed_10
       rect:
         serializedVersion: 2
-        x: 191
-        y: 47
-        width: 25
-        height: 25
+        x: 24
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +417,10 @@ TextureImporter:
       name: tilemap-characters_packed_11
       rect:
         serializedVersion: 2
-        x: 50
-        y: 26
-        width: 20
-        height: 20
+        x: 48
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +439,10 @@ TextureImporter:
       name: tilemap-characters_packed_12
       rect:
         serializedVersion: 2
-        x: 74
-        y: 26
-        width: 20
-        height: 20
+        x: 72
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,10 +461,10 @@ TextureImporter:
       name: tilemap-characters_packed_13
       rect:
         serializedVersion: 2
-        x: 101
-        y: 27
-        width: 13
-        height: 17
+        x: 96
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +483,10 @@ TextureImporter:
       name: tilemap-characters_packed_14
       rect:
         serializedVersion: 2
-        x: 125
-        y: 27
-        width: 13
-        height: 17
+        x: 120
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,10 +505,10 @@ TextureImporter:
       name: tilemap-characters_packed_15
       rect:
         serializedVersion: 2
-        x: 147
-        y: 23
-        width: 17
-        height: 20
+        x: 144
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,10 +527,10 @@ TextureImporter:
       name: tilemap-characters_packed_16
       rect:
         serializedVersion: 2
-        x: 171
-        y: 23
-        width: 17
-        height: 21
+        x: 168
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: tilemap-characters_packed_17
       rect:
         serializedVersion: 2
-        x: 196
-        y: 23
-        width: 17
-        height: 19
+        x: 192
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +571,10 @@ TextureImporter:
       name: tilemap-characters_packed_18
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 17
-        height: 14
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,10 +593,10 @@ TextureImporter:
       name: tilemap-characters_packed_19
       rect:
         serializedVersion: 2
-        x: 28
+        x: 24
         y: 0
-        width: 17
-        height: 15
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,10 +615,10 @@ TextureImporter:
       name: tilemap-characters_packed_20
       rect:
         serializedVersion: 2
-        x: 52
+        x: 48
         y: 0
-        width: 17
-        height: 13
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,10 +637,10 @@ TextureImporter:
       name: tilemap-characters_packed_21
       rect:
         serializedVersion: 2
-        x: 71
+        x: 72
         y: 0
-        width: 74
-        height: 23
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: tilemap-characters_packed_22
       rect:
         serializedVersion: 2
-        x: 146
-        y: 2
-        width: 20
-        height: 19
+        x: 96
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -681,10 +681,10 @@ TextureImporter:
       name: tilemap-characters_packed_23
       rect:
         serializedVersion: 2
-        x: 167
-        y: 3
-        width: 26
-        height: 14
+        x: 120
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -703,10 +703,10 @@ TextureImporter:
       name: tilemap-characters_packed_24
       rect:
         serializedVersion: 2
-        x: 194
-        y: 3
-        width: 20
-        height: 15
+        x: 144
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,11 +721,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: tilemap-characters_packed_25
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf99ef8b63c9744439711d2c184ab929
+      internalID: -812495185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap-characters_packed_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e942fb9a9ea3dce4a8c1d818b39d32a7
+      internalID: -284767826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2b119707cb115814682a4ffb3f885b37
     internalID: 0
     vertices: []
     indices: 
@@ -753,6 +797,8 @@ TextureImporter:
       tilemap-characters_packed_22: -1682323079826078375
       tilemap-characters_packed_23: 1748266406310441161
       tilemap-characters_packed_24: -5060921679397524387
+      tilemap-characters_packed_25: -812495185
+      tilemap-characters_packed_26: -284767826
       tilemap-characters_packed_3: -8912572294651161946
       tilemap-characters_packed_4: 311352632598324967
       tilemap-characters_packed_5: -4038945968399637897
