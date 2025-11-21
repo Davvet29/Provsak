@@ -66,7 +66,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.022301197, y: -0.020398855}
+  m_Offset: {x: -0.0010290742, y: -0.020398855}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,7 +76,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.203929, y: 0.10754919}
+  m_Size: {x: 1.0592808, y: 0.10754919}
   m_EdgeRadius: 0
 --- !u!1 &6340214336639004414
 GameObject:
@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 6047482108308919555}
   - component: {fileID: 7608807647568022982}
   - component: {fileID: 1971077053702149905}
+  - component: {fileID: 4545054807482000052}
   m_Layer: 7
   m_Name: Roomba
   m_TagString: Untagged
@@ -275,3 +276,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &4545054807482000052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6340214336639004414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770e14170fe1ecc4c9f2ce810af92469, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sideCheckCollider: {fileID: 3022289380741969946}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256

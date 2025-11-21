@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 8fc4fd0b97571d742bf6f5c64ed0f500
   - enabled: 1
+    path: Assets/Scenes/BackstoryScene.unity
+    guid: 75543787dcc1ab3468090bbd8b5c198f
+  - enabled: 1
     path: Assets/Scenes/SettingsScene.unity
     guid: 46bc1c8d15e9aad4783b97c84d4fa1b4
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: 541b0f31a57056d4e8d24e15c6e5719e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 4bc8e4a0fcdcc664bb73b58212b19620, type: 3}
   m_UseUCBPForAssetBundles: 0
