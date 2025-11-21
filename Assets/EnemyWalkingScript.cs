@@ -5,7 +5,7 @@ public class EnemyWalkingScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private Rigidbody2D rb;
     private Vector2 velocity;
-    private int walkingDirection = 1;
+    [SerializeField] private int walkingDirection = 1;
     [SerializeField] private int speed = 5;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private BoxCollider2D sideCheckCollider;
@@ -19,7 +19,7 @@ public class EnemyWalkingScript : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (sideCheckCollider.IsTouchingLayers(groundLayer) || timer >= 3)
+        if (sideCheckCollider.IsTouchingLayers(groundLayer) || timer >= 7)
         {
             timer = 0;
             walkingDirection *= -1;
