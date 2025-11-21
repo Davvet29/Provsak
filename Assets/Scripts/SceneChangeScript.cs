@@ -5,6 +5,7 @@ public class SceneChangeScript : MonoBehaviour
 {
     public void ChangeScene(string scene)
     {
+        Debug.Log(scene);
         SceneManager.LoadScene(scene);
     }
 }
